@@ -25,7 +25,7 @@ namespace my_shoppinglist_api.Controllers
     {
       return Ok(new
       {
-        Message = "Api is live",
+        Message = "This api is live. check http://shoppinglist.dallau.com/swagger for the documentation",
         Version = _config.GetValue<string>("Version")
       });
     }
