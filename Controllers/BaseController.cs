@@ -19,6 +19,6 @@ namespace my_shoppinglist_api.Controllers
     {
       _authService = authService;
       _config = config;
-    }s
+    }m
   }
 }
